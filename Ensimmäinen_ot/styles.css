@@ -1,0 +1,21 @@
+body {
+    background: blue;
+}
+
+.red{
+    color: red;
+}
+
+ul{
+    list-style-type:square ;
+}
+
+#uusi {
+    color:green;
+}
+
+header {
+    background:yellow ;
+    color: black;
+    text-align: center;
+}
