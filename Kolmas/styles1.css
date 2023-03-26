@@ -1,0 +1,64 @@
+header, footer{
+    padding: 1em;
+    color: white;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    flex-direction: column;
+    height: fit-content;
+    background-color: lightgrey;
+}
+
+nav{
+    background-color: lightgreen;
+    padding: 1em;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.wrapper > div{
+    flex: 1;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+}
+
+article{
+    float: left;
+    width: 65%;
+    padding: 1em;
+    color: black;
+    height: 230px ;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    padding: 1em;
+    color: black;
+    height: 542px;
+}
+
+section{
+    float: left;
+    width: 65%;
+    color: black;
+    height: 230px;
+    padding: 1em;
+    background-color: lightgreen;
+}
+
+progress{
+    float: left;
+    margin-left: 0;
+}
