@@ -1,0 +1,28 @@
+header{
+    float: inline-start;
+    font-size: larger;
+    padding: 1em;
+    border: solid;
+}
+body{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 1px solid black;
+    flex-direction: column;
+    height: fit-content;
+    background-color: lightgrey;
+    }
+nav{
+    background-color: lightblue;
+    padding: 1em;
+}
+.wrapper{
+    display: flex;
+}
+
+.wrapper > div{
+    flex: 1;
+    text-align: center;
+}
