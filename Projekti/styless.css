@@ -1,7 +1,156 @@
-.wrapper{
-    display: flex;
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
-.wrapper > div{
-    flex: 1;
+body{
+    min-height: 100vh;
+    background: url(stadium-ge9c757342_1920.jpg) no-repeat;
+    background-size: cover ;
+    background-position: center;
+    margin: 0;
+    }
+header{
+    position: relative;
+    top: 0; left: 0; right: 0;
+    background: white;
+    box-shadow: 0 5px 10px black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo{
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+}
+header .navbar ul{
+    list-style: none;
+}
+header ul li{
+    position: relative;
+    float: left;
+}
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    display: block;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    padding: 8px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    box-shadow: 5px 5px 10px black;
+}
+.overlay {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0,6);
+}
+.description{
+    position: relative;
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 1em;
+    border-style: solid;
+}
+.container{
+width: 100%;
+margin: 0 auto;
+display: block;
+}
+
+.col1, .col2, .col3{
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+.col3{
+    font-weight: bolder;
+}
+.col2{
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 1em;
+    border-style: solid;
+    padding: 1em;
+}
+.col1{
+    color: white;
+    font-weight: bolder;
+}
+.icon1, .icon2, .icon3, .icon4, .icon5{
+    color: blue;
+    transition: color 0.3s;
+    font-size: 35px;
+    float: right;
+    margin: 0 5px;
+}
+.icon1:hover{
+    color: black;
+}
+.icon2:hover{
+    color: black;
+}
+.icon3:hover{
+    color: black;
+}
+.icon4:hover{
+    color: black;
+}
+.icon5:hover{
+    color: black;
+}
+.button{
+    border-radius: 20px;
+    padding: 20px 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 2px 2px;
+    cursor: pointer;
+    background-color: blue;
+    transition: 0.3s;
+    font-weight: bold;
+    box-shadow: 0 8px white;
+}
+.button:hover{
+    background-color: darkblue;
+}
+h2{
+    background-color: white;
+}
+header .navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: white;
+    display: none;
+}
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 2px solid black;
+}
+header .navbar ul li:hover > ul{
+    display: initial;
 }

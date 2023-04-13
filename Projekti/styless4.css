@@ -1,7 +1,94 @@
-.wrapper{
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+    background: url(stadium-ge9c757342_1920.jpg) no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: white;
+    box-shadow: 0 5px 10px black;
+    padding: 20px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
 }
-.wrapper > div{
-    flex: 1;
+header .logo{
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+}
+header .navbar ul{
+    list-style: none;
+}
+header ul li{
+    position: relative;
+    float: left;
+}
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    display: block;
+}
+.icon1, .icon2, .icon3, .icon4, .icon5{
+    color: blue;
+    transition: color 0.3s;
+    font-size: 35px;
+    float: right;
+    margin: 0 5px;
+}
+.icon1:hover{
+    color: black;
+}
+.icon2:hover{
+    color: black;
+}
+.icon3:hover{
+    color: black;
+}
+.icon4:hover{
+    color: black;
+}
+.icon5:hover{
+    color: black;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    padding: 8px;
     text-align: center;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    box-shadow: 5px 5px 10px black;
+    }
+    header .navbar ul li a:hover{
+        background-color: white;
+        color: black;
+    }
+    header .navbar ul li ul{
+        position: absolute;
+        left: 0;
+        width: 200px;
+        background-color: white;
+        display: none;
+    }
+    header .navbar ul li ul li{
+        width: 100%;
+        border-top: 2px solid black;
+    }
+    header .navbar ul li:hover > ul{
+        display: initial;
+    }
