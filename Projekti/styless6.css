@@ -84,6 +84,10 @@ footer{
 }
 .col3{
     font-weight: bolder;
+    background-color: white;
+    border-radius: 1em;
+    border-style: solid;
+    padding: 1em;
 }
 .col2{
     font-weight: bolder;

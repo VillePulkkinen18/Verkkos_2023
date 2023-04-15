@@ -76,22 +76,6 @@ footer{
 .icon5:hover{
     color: black;
 }
-.button{
-    border-radius: 20px;
-    padding: 20px 30px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    margin: 2px 2px;
-    cursor: pointer;
-    background-color: blue;
-    transition: 0.3s;
-    font-weight: bold;
-    box-shadow: 0 8px white;
-}
-.button:hover{
-    background-color: darkblue;
-}
 h2{
     background-color: white;
 }
@@ -112,4 +96,39 @@ header .navbar ul li ul li{
 }
 header .navbar ul li:hover > ul{
     display: initial;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    height: 450px;
+    width: 250px;
+    margin: 20px;
+    border: solid black;
+    text-align: center;
+    overflow: hidden;
+}
+.card, .pic img{
+    height: 200px;
+    width: 220px;
+    border: solid black;
+}
+.info{
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    width: 200px;
+}
+.description{
+    position: relative;
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 1em;
+    border-style: solid;
+    font-size: 22px;
 }
