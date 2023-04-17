@@ -11,7 +11,7 @@ body{
     background-position: center;
 }
 header{
-    position: fixed;
+    position: relative;
     top: 0; left: 0; right: 0;
     background: white;
     box-shadow: 0 5px 10px black;
@@ -20,6 +20,15 @@ header{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+}
+.description{
+    position: relative;
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 1em;
+    border-style: solid;
 }
 header .logo{
     font-weight: bolder;
@@ -92,3 +101,31 @@ footer{
     header .navbar ul li:hover > ul{
         display: initial;
     }
+    .div, .gallery{
+        border: solid white;
+        margin: 10px;
+        float: left;
+        width: 290px;
+        margin-top: 100px;
+        color: black;
+        background-color:white ;
+    }
+    .div, .gallery img{
+        width: 100%;
+    }
+    .div, .desc{
+        padding: 10px;
+        text-align: center;
+    }
+.form{
+    float: right;
+    margin-top: 20px;
+    color: black;
+    background: white;
+    margin-right: 15px;
+    padding: 1em;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
