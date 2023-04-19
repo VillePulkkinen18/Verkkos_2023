@@ -1,0 +1,11 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table{
+    border: 1px solid black;
+}
+form{
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
