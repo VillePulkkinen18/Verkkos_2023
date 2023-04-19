@@ -50,7 +50,10 @@ footer{
     font-size: 25px;
     border-radius: 5px;
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
     box-shadow: 5px 5px 10px black;
 }
 .overlay {
@@ -153,4 +156,7 @@ header .navbar ul li ul li{
 }
 header .navbar ul li:hover > ul{
     display: initial;
+}
+img{
+    border-radius: 1em;
 }
