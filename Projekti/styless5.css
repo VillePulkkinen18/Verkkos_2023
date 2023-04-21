@@ -57,14 +57,6 @@ footer{
     height: auto;
     box-shadow: 5px 5px 10px black;
 }
-.overlay {
-    position: relative;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0,6);
-}
 .description{
     position: relative;
     text-align: center;
@@ -129,22 +121,6 @@ footer{
 .icon8:hover{
     color: black;
 }
-.button{
-    border-radius: 20px;
-    padding: 20px 30px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    margin: 2px 2px;
-    cursor: pointer;
-    background-color: blue;
-    transition: 0.3s;
-    font-weight: bold;
-    box-shadow: 0 8px white;
-}
-.button:hover{
-    background-color: darkblue;
-}
 h2{
     background-color: white;
 }
@@ -171,7 +147,7 @@ header .navbar ul li:hover > ul{
     font-size: 30px;
     margin: 5px 5px;
     color: blue;
-    transition: color 0,3s;
+    transition: 0.3s;
 }
 img{
     border-radius: 1em;

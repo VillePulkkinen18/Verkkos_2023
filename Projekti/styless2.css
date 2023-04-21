@@ -124,6 +124,7 @@ header .navbar ul li:hover > ul{
     padding: 1em;
     border-radius: 10px;
     width: 200px;
+    font-weight: bold;
 }
 .description{
     position: relative;
