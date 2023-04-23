@@ -1,0 +1,30 @@
+h1{
+    box-shadow: 5px 5px 5px 5px black;
+    min-height: 35vh;
+    background: url(stadium-ge9c757342_1920.jpg);
+    background-size: cover ;
+    background-position: center;
+    margin: 0;
+    color: white;
+}
+h2{
+    text-shadow: 5px 5px blueviolet;
+}
+.linkki:hover{
+    color: red;
+}
+.linkki2:hover{
+    color: red;
+}
+.linkki2{
+    transition: 0.3s;
+}
+.linkki{
+    transition: 0.3s;
+}
+@media only screen and (max-width: 800px){
+    body{
+        background-color: black;
+        color: white;
+    }
+} 
